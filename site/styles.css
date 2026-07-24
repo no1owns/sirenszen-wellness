@@ -884,6 +884,29 @@ footer {
   .recipe-cards { grid-template-columns: 1fr; }
 }
 
+/* ── Booking note ── */
+.booking-note {
+  margin: 0 auto 32px;
+  padding: 20px 24px;
+  background: #f5f5f5;
+  border-radius: 4px;
+  font-size: 0.82rem;
+  color: #777;
+  line-height: 1.6;
+  max-width: 640px;
+  text-align: left;
+}
+.booking-note p { margin-bottom: 10px; }
+.booking-note p:last-child { margin-bottom: 0; }
+
+.hero-book-note {
+  margin-top: 16px;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.55;
+}
+
 /* ── Book page ── */
 .book-content {
   max-width: 860px;
