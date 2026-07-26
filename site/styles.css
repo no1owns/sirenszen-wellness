@@ -813,6 +813,21 @@ footer {
 .stretch-purpose { font-size: 0.88rem; color: #888; margin-bottom: 10px; }
 .stretch-desc { font-size: 0.97rem; line-height: 1.7; color: #444; }
 
+.full-body-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 10px;
+  margin-top: 16px;
+}
+.full-body-item {
+  padding: 10px 14px;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  color: #444;
+}
+
 @media (max-width: 560px) {
   .stretch-card { flex-direction: column; align-items: flex-start; }
   .stretch-photo { width: 140px; }
