@@ -782,6 +782,7 @@ footer {
 .stretch-cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  align-items: start;
   gap: 24px;
   max-width: 900px;
 }
@@ -810,7 +811,8 @@ footer {
 
 /* Full Body Stretch — grouped set, numbered grid */
 .full-body-set {
-  grid-column: 1 / -1;
+  max-width: 900px;
+  margin-top: 24px;
   background: #f5f5f2;
   border-radius: 10px;
   padding: 32px;
