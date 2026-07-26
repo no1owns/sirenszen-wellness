@@ -899,6 +899,16 @@ footer {
 .booking-note p { margin-bottom: 10px; }
 .booking-note p:last-child { margin-bottom: 0; }
 
+.pricing-note {
+  margin: 12px 0 32px;
+  font-size: 0.82rem;
+  color: #777;
+  line-height: 1.6;
+  max-width: 640px;
+}
+.pricing-note p { margin-bottom: 8px; }
+.pricing-note p:last-child { margin-bottom: 0; }
+
 .hero-book-note {
   margin-top: 16px;
   font-size: 0.68rem;
