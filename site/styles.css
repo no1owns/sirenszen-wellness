@@ -637,6 +637,7 @@ footer {
   aspect-ratio: 3/4;
   background: #f0f0f0;
   border-radius: 4px;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -644,6 +645,12 @@ footer {
   font-size: 0.72rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+.about-photo-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 .about-bio p {
   font-size: 1rem;
@@ -856,6 +863,7 @@ footer {
 }
 .full-body-item img {
   width: 100%;
+  height: auto;
   aspect-ratio: 1 / 1;
   object-fit: contain;
   display: block;
@@ -874,7 +882,7 @@ footer {
   .stretch-text { padding-left: 0; padding-top: 16px; border-left: none; border-top: 3px solid #111; }
 }
 @media (max-width: 560px) {
-  .full-body-grid { grid-template-columns: repeat(2, 1fr); }
+  .full-body-grid { grid-template-columns: 1fr; }
 }
 
 /* Nutrition grid */
