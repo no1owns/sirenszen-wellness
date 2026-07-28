@@ -1007,5 +1007,19 @@ footer {
   text-align: center;
 }
 .book-content .page-intro { margin: 0 auto 48px; text-align: left; }
+.book-content .faq-block { margin-left: auto; margin-right: auto; text-align: left; }
 .book-iframe-wrap { width: 100%; border-radius: 4px; overflow: hidden; background: #fafafa; }
 @media (max-width: 600px) { .book-content { padding: 48px 20px; } }
+
+/* ── FAQ ── */
+.faq-block { margin-top: 64px; max-width: 760px; }
+.faq-block.reveal { margin-top: 64px; }
+.faq-item { padding: 22px 0; border-top: 1px solid #ebebeb; }
+.faq-item:last-child { border-bottom: 1px solid #ebebeb; }
+.faq-question {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.15rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.faq-answer { font-size: 0.95rem; line-height: 1.7; color: #444; }

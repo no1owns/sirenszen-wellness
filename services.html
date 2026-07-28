@@ -24,6 +24,82 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="site/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Massage Therapy",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "SirensZen Massage & Wellness",
+      "telephone": "+14439395144",
+      "url": "https://sirenszenwellness.com/"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Baltimore, MD"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Session Rates",
+      "itemListElement": [
+        {"@type": "Offer", "name": "60-Minute Massage — At Studio", "price": "85", "priceCurrency": "USD", "eligibleDuration": {"@type": "QuantitativeValue", "value": 60, "unitCode": "MIN"}},
+        {"@type": "Offer", "name": "60-Minute Massage — Mobile", "price": "105", "priceCurrency": "USD", "eligibleDuration": {"@type": "QuantitativeValue", "value": 60, "unitCode": "MIN"}},
+        {"@type": "Offer", "name": "75-Minute Massage — At Studio", "price": "100", "priceCurrency": "USD", "eligibleDuration": {"@type": "QuantitativeValue", "value": 75, "unitCode": "MIN"}},
+        {"@type": "Offer", "name": "75-Minute Massage — Mobile", "price": "120", "priceCurrency": "USD", "eligibleDuration": {"@type": "QuantitativeValue", "value": 75, "unitCode": "MIN"}},
+        {"@type": "Offer", "name": "90-Minute Massage — At Studio", "price": "130", "priceCurrency": "USD", "eligibleDuration": {"@type": "QuantitativeValue", "value": 90, "unitCode": "MIN"}},
+        {"@type": "Offer", "name": "90-Minute Massage — Mobile", "price": "145", "priceCurrency": "USD", "eligibleDuration": {"@type": "QuantitativeValue", "value": 90, "unitCode": "MIN"}},
+        {"@type": "Offer", "name": "120-Minute Massage — At Studio", "price": "180", "priceCurrency": "USD", "eligibleDuration": {"@type": "QuantitativeValue", "value": 120, "unitCode": "MIN"}},
+        {"@type": "Offer", "name": "120-Minute Massage — Mobile", "price": "200", "priceCurrency": "USD", "eligibleDuration": {"@type": "QuantitativeValue", "value": 120, "unitCode": "MIN"}}
+      ]
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Massage Modalities",
+    "itemListElement": [
+      {"@type": "Service", "position": 1, "name": "Swedish Massage", "description": "Stimulates circulation, releases tight muscles, and calms the nervous system."},
+      {"@type": "Service", "position": 2, "name": "Therapeutic Massage", "description": "Targets chronic pain and specific conditions like sciatica, plantar fasciitis, and frozen shoulder."},
+      {"@type": "Service", "position": 3, "name": "Deep Tissue Massage", "description": "Breaks down scar tissue and reaches deeper muscle layers to improve circulation and range of motion."},
+      {"@type": "Service", "position": 4, "name": "Trigger Point Massage", "description": "Releases muscle knots and spasms to relieve chronic pain in the shoulders and lower back."},
+      {"@type": "Service", "position": 5, "name": "Sports Massage", "description": "Tailored for athletes to improve flexibility, accelerate recovery, and prevent injuries."},
+      {"@type": "Service", "position": 6, "name": "Myofascial Release", "description": "Releases fascial tension to restore posture, movement, and overall flexibility."},
+      {"@type": "Service", "position": 7, "name": "Prenatal Massage", "description": "Relieves tension and swelling for expectant mothers, promoting comfort throughout pregnancy."},
+      {"@type": "Service", "position": 8, "name": "Reflexology", "description": "Targeted pressure on reflex points of the feet, hands, and ears to enhance whole-body well-being."}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much does a massage cost at SirensZen?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Sessions are priced by duration and location: $85 (studio) or $105 (mobile) for 60 minutes, $100/$120 for 75 minutes, $130/$145 for 90 minutes, and $180/$200 for 120 minutes."}
+      },
+      {
+        "@type": "Question",
+        "name": "What's the price difference between an in-studio and a mobile session?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Mobile (in-home) sessions run $15-$20 more than the equivalent studio session, reflecting travel to your location. Every duration is available either way."}
+      },
+      {
+        "@type": "Question",
+        "name": "What massage modalities does SirensZen offer?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Swedish, Therapeutic, Deep Tissue, Trigger Point, Sports, Myofascial Release, Prenatal, and Reflexology, all available at any session length, at the studio or mobile."}
+      },
+      {
+        "@type": "Question",
+        "name": "Can I ask questions or get guidance before booking a full session?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Yes, phone consultations are available for questions or wellness guidance. The first 15 minutes are free; planning and advising after that is $15."}
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -227,6 +303,32 @@
           </div>
         </div>
 
+      </div>
+    </div>
+
+    <!-- FAQ -->
+    <div class="faq-block reveal">
+      <h2 class="section-heading">Common Questions</h2>
+      <p class="section-sub">Pricing &amp; services</p>
+
+      <div class="faq-item">
+        <h3 class="faq-question">How much does a massage cost at SirensZen?</h3>
+        <p class="faq-answer">Sessions are priced by duration and location: $85 (studio) or $105 (mobile) for 60 minutes, $100/$120 for 75 minutes, $130/$145 for 90 minutes, and $180/$200 for 120 minutes.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-question">What's the price difference between an in-studio and a mobile session?</h3>
+        <p class="faq-answer">Mobile (in-home) sessions run $15&ndash;$20 more than the equivalent studio session, reflecting travel to your location. Every duration is available either way.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-question">What massage modalities does SirensZen offer?</h3>
+        <p class="faq-answer">Swedish, Therapeutic, Deep Tissue, Trigger Point, Sports, Myofascial Release, Prenatal, and Reflexology &mdash; all available at any session length, at the studio or mobile.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3 class="faq-question">Can I ask questions or get guidance before booking a full session?</h3>
+        <p class="faq-answer">Yes &mdash; phone consultations are available for questions or wellness guidance. The first 15 minutes are free; planning and advising after that is $15.</p>
       </div>
     </div>
 
