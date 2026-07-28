@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sirenszenwellness.com/sitemap.xml
