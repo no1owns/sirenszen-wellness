@@ -216,12 +216,12 @@ main { padding-top: 72px; }
 }
 
 .pricing-card.featured {
-  background: #111;
-  border-color: #111;
+  background: var(--accent-teal);
+  border-color: var(--accent-teal);
   color: #fff;
 }
 .pricing-card.featured:hover {
-  box-shadow: 0 8px 40px rgba(0,0,0,0.28);
+  box-shadow: 0 8px 40px rgba(47,110,120,0.35);
 }
 
 .pricing-card-top {
